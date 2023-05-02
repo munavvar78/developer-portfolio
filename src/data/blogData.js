@@ -15,14 +15,14 @@ export const blogData = [
         image: 'https://res.cloudinary.com/practicaldev/image/fetch/s--b5wiqIDp--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/246ahguxa3cny46w3h42.png',
         url: 'https://dev.to/munavvar/how-to-solve-the-setstate-is-not-a-function-error-in-react-573j'
     },
-//     {
-//         id: 3,
-//         title: 'BEING ANONYMOUS: A BEGINNERS GUIDE',
-//         description: 'Here are some basic ways to lay off the Radar',
-//         date: 'Aug 14, 2020',
-//         image: 'https://1.bp.blogspot.com/-GR19yCNbKCE/XuRcKEfKvhI/AAAAAAAAAwY/srFWw5pOpzMibeJb__SmgZpx9dIpNNWqgCK4BGAsYHg/w640-h426/anonymous1.jpg',
-//         url: 'https://hackzism.blogspot.com/2020/06/being-anonymous-beginners-guide.html'
-//     },
+    {
+        id: 3,
+        title: 'common mistakes to avoid when working with React',
+        description: 'This blog post discusses common mistakes that developers new to React can make and provides guidance on how to avoid them.',
+        date: 'May 2, 2023',
+        image: 'https://community-cdn-digitalocean-com.global.ssl.fastly.net/CUP5C7E9jah7UWhsggvsUZty',
+        url: 'https://dev.to/munavvar/common-mistakes-to-avoid-when-working-with-react-2f61'
+    },
 //     {
 //         id: 4,
 //         title: 'CHECK INTERNET SPEED FROM THE COMMAND LINE',
