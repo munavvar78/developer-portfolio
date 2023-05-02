@@ -4,7 +4,7 @@ export const blogData = [
         title: 'React Redux',
         description: 'Here we will use Learn About React Redux How To Implement In React.',
         date: 'Jan, 2022',
-        image: 'https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png',
+        image: 'https://img.stackshare.io/service/7374/react-redux.png',
         url: 'https://munavvarpopatiya99.wixsite.com/munavvarpopatiya/post/react-problem'
     },
     {
