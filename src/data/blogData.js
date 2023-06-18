@@ -1,14 +1,6 @@
 export const blogData = [
     {
-        id: 1,
-        title: 'React Redux',
-        description: 'Here we will use Learn About React Redux How To Implement In React.',
-        date: 'Jan, 2022',
-        image: 'https://img.stackshare.io/service/7374/react-redux.png',
-        url: 'https://munavvarpopatiya99.wixsite.com/munavvarpopatiya/post/react-problem'
-    },
-    {
-        id: 2,
+        id: 4,
         title: 'React setState Problem',
         description: "How to Solve the setState is not a function Error in React The setState",
         date: 'mar 29, 2023',
@@ -24,7 +16,7 @@ export const blogData = [
         url: 'https://dev.to/munavvar/common-mistakes-to-avoid-when-working-with-react-2f61'
     },
     {
-        id: 4,
+        id: 2,
         title: 'Server-Side Rendering in React',
         description: "This blog post provides an introduction to server-side rendering in React and covers popular frameworks and libraries for implementing it, such as Next.js and React Server Components. ",
         date: 'May 03, 2023',
@@ -32,12 +24,12 @@ export const blogData = [
         url: 'https://dev.to/munavvar/server-side-rendering-in-react-3ngo'
     },
     {
-        id: 5,
+        id: 1,
         title: 'Exploring Website Scroll Effects: Locomotive Scroll vs React Scroll Parallax',
         description: 'This blog post compares two popular libraries, Locomotive Scroll and React Scroll Parallax, for implementing scroll effects on websites. ',
         date: 'Jun 4, 2023',
         image: 'https://res.cloudinary.com/practicaldev/image/fetch/s--4EzDcZqS--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ncy236p02a0ziggp0ctq.jpg',
-        url: 'https://hackzism.blogspot.com/2020/07/how-can-you-get-michaels-or-trevors.html'
+        url: 'https://dev.to/munavvar/exploring-website-scroll-effects-locomotive-scroll-vs-react-scroll-parallax-1938'
     },
 ]
 

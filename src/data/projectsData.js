@@ -1,5 +1,6 @@
-import one from '../assets/svg/projects/one.svg'
+import pg from '../assets/png/pg.jpeg'
 import two from '../assets/svg/projects/two.svg'
+import chat from '../assets/png/chat.jpeg'
 import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
 import five from '../assets/svg/projects/five.svg'
@@ -12,14 +13,23 @@ export const projectsData = [
     {
         id: 1,
         projectName: 'PG Booking',
-        projectDesc: 'This project aims to build an PG Booking system that consolidates all information of a Pg around the college',
-        tags: ['React', 'CSS', 'Material Ui','Node Js'],
+        projectDesc: 'BookMyPG is an innovative online platform designed to simplify the process of finding and booking paying guest (PG) accommodations',
+        tags: ['React', 'CSS', 'MongoDb','Node Js'],
         code: 'https://github.com/munavvar78/pg78',
         demo: 'https://github.com/munavvar78/pg78',
-        image: one
+        image: pg
     },
     {
         id: 2,
+        projectName: 'Chat App',
+        projectDesc: ' The Chat App project involved the development of a modern and userfriendly messaging application that facilitates real-time communication between users.',
+        tags: ['React Js', 'Node Js', 'MongoDb','Express Js'],
+        code: 'https://github.com/munavvar78/crypto-builder/',
+        demo: 'https://github.com/munavvar78/crypto-builder/',
+        image: chat
+    },
+    {
+        id: 3,
         projectName: 'Crypto Tracking',
         projectDesc: 'This project is a Crypto tracking system that allows users to obtain relevant information about Crypto Price.',
         tags: ['React', 'Axios'],
@@ -27,24 +37,7 @@ export const projectsData = [
         demo: 'https://github.com/munavvar78/crypto-builder/',
         image: two
     },]
-    // {
-    //     id: 3,
-    //     projectName: 'Weather App',
-    //     projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-    //     tags: ['Django', 'CSS', 'Material Ui'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: three
-    // },
-//     {
-//         id: 4,
-//         projectName: 'Android Patient Tracker',
-//         projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-//         tags: ['Flutter', 'Firebase'],
-//         code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-//         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-//         image: four
-//     },
+    
 //     {
 //         id: 5,
 //         projectName: 'E-Commerce App',
