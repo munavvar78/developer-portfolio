@@ -102,4 +102,14 @@
         margin-left: 80%;
     }
   }
+  @media screen and (min-width: 350px) and (max-width : 400px) {
+    .LightDarkButton{
+      /* position: absolute; */
+      z-index: 200;
+      position: absolute;
+      margin: 25px;
+      margin-top: 38px;
+      margin-left:65%;
+  }
+  }
 
