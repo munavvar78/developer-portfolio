@@ -13,6 +13,8 @@ import CloseIcon from '@material-ui/icons/Close';
 import './Navbar.css';
 import { headerData } from '../../data/headerData';
 import { ThemeContext } from '../../contexts/ThemeContext';
+import Toggle from 'react-toggle';
+import { useMediaQuery } from 'react-responsive';
 
 function Navbar() {
     const { theme, setHandleDrawer } = useContext(ThemeContext);
@@ -136,7 +138,7 @@ function Navbar() {
                 <h1 style={{ color: theme.secondary }}>
                     {shortname(headerData.name)}
                 </h1>
-
+                
                 <IoMenuSharp
                     className={classes.navMenu}
                     onClick={handleDrawerOpen}

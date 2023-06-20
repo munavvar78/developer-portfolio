@@ -1,0 +1,105 @@
+.LightDarkButton{
+    /* position: absolute; */
+    z-index: 200;
+    position: absolute;
+    margin: 25px;
+    margin-top: 37px;
+    margin-left: 90%;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+
+  .label {
+    width: 50px;
+    height: 26px;
+    background-color: rgba(6, 6, 6, 0.588);
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+    scale: 0.9;
+    cursor: pointer;
+  }
+
+  .ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+
+  }
+
+  /*  target the elemenent after the label*/
+  .checkbox:checked + .label .ball{
+    transform: translateX(24px);
+  }
+
+  .fa-moon {
+    color: pink;
+  }
+
+
+  .w-sun{
+    width: 15px;
+    height: 15px;
+  }
+
+  .w-moon{
+    width: 15px;
+    height: 15px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .LightDarkButton{
+        /* position: absolute; */
+        z-index: 200;
+        position: fixed;
+        margin: 25px;
+        margin-top: 38px;
+        margin-left: 70%;
+    }
+    .label {
+        width: 42px;
+        height: 22px;
+      }
+
+      .ball {
+        width: 18px;
+        height: 18px;
+        background-color: white;
+        position: absolute;
+        top: 2px;
+        left: 0px;
+        border-radius: 50%;
+        transition: transform 0.2s linear;
+      }
+      .w-sun{
+        width: 15px;
+        height: 12px;
+      }
+
+      .w-moon{
+        width: 15px;
+        height: 12px;
+      }
+
+  }
+  @media screen and (min-width: 601px) and (max-width : 1000px) {
+    .LightDarkButton{
+
+        margin-left: 80%;
+    }
+  }
+
