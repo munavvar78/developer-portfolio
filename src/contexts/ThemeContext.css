@@ -65,7 +65,7 @@
     .LightDarkButton{
         /* position: absolute; */
         z-index: 200;
-        position: fixed;
+        position: absolute;
         margin: 25px;
         margin-top: 38px;
         margin-left: 70%;
@@ -86,12 +86,12 @@
         transition: transform 0.2s linear;
       }
       .w-sun{
-        width: 15px;
+        width: 12px;
         height: 12px;
       }
 
       .w-moon{
-        width: 15px;
+        width: 12px;
         height: 12px;
       }
 
