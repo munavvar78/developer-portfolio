@@ -1,6 +1,6 @@
 import React, { createContext, useState } from 'react'
 
-import { themeData, themeDataDark } from '../data/themeData'
+import { themeData, themeDataLight } from '../data/themeData'
 import './ThemeContext.css'
 import sun from '../assets/svg/sun.png';
 import moon from '../assets/svg/moon.png'
@@ -15,7 +15,7 @@ function ThemeContextProvider(props) {
 
     const changeTheme = () => {
         if (theme === themeData.theme) {
-            setTheme(themeDataDark.theme);
+            setTheme(themeDataLight.theme);
         }
         else {
             setTheme(themeData.theme);
